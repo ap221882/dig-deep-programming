@@ -36,7 +36,6 @@ int main(){
  }else {
   cout << "Child";
  }
- return 0;
 
  // switch case
  string day;
@@ -50,6 +49,23 @@ int main(){
  default:
   break;
  }
+  /*
+  * * Arrays
+  */
+ int arr[5];
+ cin >> arr[0] >> arr[1] >> arr[2];
+ cout << arr[0]++ << arr[1]++;
+
+ // 2D
+ int twoDArray[3][5];
+ a[1][2] = 9;
+ cout << a[1][2];
+
+
+
+
+ 
+ return 0;
 }
 
 // int, long, long long
