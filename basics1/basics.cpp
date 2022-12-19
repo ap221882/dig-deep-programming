@@ -2,6 +2,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void printName(string name){
+ cout << "hey" << name;
+}
+
+// pass by reference
+void doSomething(string s){
+ s[0]='r';
+ cout << s << endl;
+}
+
+
+// pass by reference
+void doSomething2(string &s){
+ s[0]='r';
+ cout << s << endl;
+}
+// Arrays are passed by reference by themselves, vectors etc need to be passed by us by reference if needed.
+
+
 int main(){
  cout << "I'm here" << endl;
  // Print and take outputs/inputs 
@@ -68,8 +87,12 @@ int main(){
  int len = str.size();
  cout << str[len-1];
 
-
-
+  /*
+  * * Function
+  */
+ printName("Ajay");
+ doSomething("Ajay")
+ doSomething2("Ajay")
  return 0;
 }
 
