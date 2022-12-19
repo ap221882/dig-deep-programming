@@ -24,7 +24,32 @@ int main(){
  char ch;
  cin >> ch;
  cout << ch;
+
+ //CONDITIONALS
+
+ int age;
+ cin >> age;
+ if(age>=18){
+  cout << "Adult";
+ }else if(age<18 && age>=5){
+  cout << "Minor";
+ }else {
+  cout << "Child";
+ }
  return 0;
+
+ // switch case
+ string day;
+ switch (day)
+ {
+ case "Monday" :
+  /* code */
+  cout << "weekend gone"; 
+  break;
+ 
+ default:
+  break;
+ }
 }
 
 // int, long, long long
