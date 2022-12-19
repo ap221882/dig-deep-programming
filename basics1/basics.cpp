@@ -61,10 +61,15 @@ int main(){
  a[1][2] = 9;
  cout << a[1][2];
 
+  /*
+  * * String
+  */
+ string str = "STRING";
+ int len = str.size();
+ cout << str[len-1];
 
 
 
- 
  return 0;
 }
 
